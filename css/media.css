@@ -1,0 +1,229 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common css start*/
+	.c_padding{
+		padding-bottom: 60px;
+	}
+	/*header css start*/
+	.header_logo img {
+	    width: 80% !important;
+	}
+	.header_menu ul li a{
+		padding: 8px 0 !important;
+	}
+	.signin_btn{
+		margin-left: 0 !important;
+	}
+	/*banner css start*/
+	.banner_text {
+	    text-align: center;
+	}
+	.banner_text h1 {
+	    margin: 10px 0 !important;
+	    font-size: var(--35);
+	    line-height: var(--45);
+	}
+	.banner_text .eschool_description{
+		margin: 0;
+		line-height: var(--30);
+	}
+	.banner_img {
+	    margin: 0 0 30px;
+	}
+	/*features css start*/
+	.sf_h2 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	/*courses css start*/
+	.c_title h1{
+		font-size: var(--28);
+		line-height: 45px;
+	}
+	.c_item {
+	    margin: 40px 0 0;
+	    padding: 20px 15px 20px;
+	}
+	.ci_h2{
+		font-size: 20px;
+	}
+	.cif_icon{
+		margin-right: 0 !important;
+		width: 18px;
+		height: 18px;
+	}
+	.cif_span{
+		font-weight: var(--400);
+		font-size: 15px;
+	}
+	/*testimonial css start*/
+	#eschool_testimonial {
+	    margin-top: 40px;
+	}
+	.t_img{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	/*footer top css start*/
+	.footer_top{
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.ft_details{
+		padding-right: 0;
+		margin-bottom: 35px;
+	}
+	.ft_link{
+		margin-bottom: 35px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common css start*/
+	.c_padding{
+		padding-bottom: 60px;
+	}
+	/*header css start*/
+	.header_logo img {
+	    width: 80% !important;
+	}
+	.header_menu ul li a{
+		padding: 8px 0 !important;
+	}
+	.signin_btn{
+		margin-left: 0 !important;
+	}
+	/*banner css start*/
+	.banner_text {
+	    text-align: center;
+	}
+	.banner_text h1 {
+	    margin: 10px 90px !important;
+	    font-size: var(--35);
+	    line-height: var(--45);
+	}
+	.banner_text .eschool_description{
+		margin: 0 50px;
+	}
+	.banner_img {
+	    margin: 0 50px 30px;
+	}
+	/*features css start*/
+	.sf_h2 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	/*courses css start*/
+	.c_title h1{
+		font-size: var(--28);
+		line-height: 45px;
+	}
+	.c_item {
+	    margin: 40px 80px 0;
+	}
+	.ci_h2{
+		font-size: 20px;
+	}
+	/*testimonial css start*/
+	#eschool_testimonial {
+	    margin-top: 40px;
+	}
+	.t_img{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	/*footer top css start*/
+	.footer_top{
+		text-align: center;
+	}
+	.ft_details{
+		padding-right: 70px;
+		padding-left: 70px;
+		margin-bottom: 45px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common css start*/
+	.c_padding{
+		padding-bottom: 80px;
+	}
+	/*header css start*/
+	.header_menu ul li a{
+		padding: 8px 0 !important;
+	}
+	.signin_btn{
+		margin-left: 0 !important;
+	}
+	/*banner css start*/
+	.banner_text {
+	    text-align: center;
+	}
+	.banner_text h1 {
+	    margin: 10px 110px !important;
+	}
+	.banner_text .eschool_description{
+		margin: 0 110px;
+	}
+	.banner_img {
+	    margin: 0 50px 30px;
+	}
+	/*courses css start*/
+	#eschool_testimonial {
+	    margin-top: 40px;
+	}
+	.c_item {
+	    margin: 40px 100px 0;
+	}
+	/*footer top css start*/
+	.footer_top{
+		text-align: center;
+	}
+	.ft_details{
+		padding-right: 80px;
+		padding-left: 80px;
+		margin-bottom: 45px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner css start*/
+	.banner_text {
+	    margin-top: 50px;
+	}
+	.banner_text h1 {
+	    margin: 10px 50px 20px 0 !important;
+	}
+	/*courses css start*/
+	.c_item {
+	    padding: 20px 15px 20px;
+	}
+	.cif_icon{
+		margin-right: 0 !important;
+		width: 18px;
+		height: 18px;
+	}
+	.cif_span{
+		font-weight: var(--400);
+		font-size: 15px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner css start*/
+	.banner_text h1 {
+	    margin: 10px 50px 20px 0 !important;
+	}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/*footer top css start*/
+	.ft_details{
+		padding-right: 130px;
+	}
+}
