@@ -64,6 +64,9 @@
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
+	.t_text p {
+	    text-align: center;
+	}
 	/*footer top css start*/
 	.footer_top{
 		padding-bottom: 20px;
@@ -132,6 +135,9 @@
 	.t_img{
 		margin: 0 auto;
 		margin-bottom: 20px;
+	}
+	.t_text p {
+	    text-align: center;
 	}
 	/*footer top css start*/
 	.footer_top{
